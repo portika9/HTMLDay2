@@ -1,61 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>      
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script> src="app.js" defer></script>
     <style>
         table {
             border: solid black;
         }
-         th, td {
-            height:5px ;
-             border: solid black;
-         }
-         </style>
+        th, td {
+            height :5px ;
+            border: solid black;
+        }
+    </style>
 </head>
-
 <body>
-    <nav>
-        <!-- home, account, setting -->
-        <ul> class="navbar"
+    <div>
+        <!--home, account, setting-->
+        <ul class="navbar">
             <li>home</li>
             <br>
             <li>account</li>
             <br>
             <li>settings</li>
         </ul>
-    </nav>
-    <header>
-        <h1>body</h1>
-    </header>
-    <main>
-        <div>
-            <p> id="p1">main text 1</p>
-            <p> id="p2">main test 2</p>
-            <p>main text</p>
-        </div>   
-    </main>
-    <section>
-        <ol>
-            <li>number 1</li>
-            <li>number 2</li>
-            <li>number 3</li>
+    </div>
+   <header>
+        <h1>HELLO</h1>
+   </header>
+   <main>
+        <p id = "p1">main text</p>
+        <p id = "p2">main text</p>
+        <p id = "p3">main text</p>
+   </main>
+   <section>
+       <ol>
+           <li>number 1</li>
+           <li>number 2</li>
+           <li>number 1</li>
         </ol>
+        <ul>
+            <li>Number</li>
+            <li>Number</li>
+            <li>Number</li>
+        </ul>
     </section>
-<div>
-    <p>body</p>
-</div>
-<div>
-    <p>header</p>
-</div>
-<div>
-    <p>footer</p>
-    <p>footer</p>
-    <p>footer</p>
-    <p>footer</p>
-    <p>footer</p>
-</div>
+        <video src="?">Video not supported</video>
+    <p>Hey this is a <strong>p</strong> tag</p>
+
+    <div>
+            is typically used as a container to hold elements 
+    </div>
+    <!--Attribute syntax-->
+       <!-- //nameofAttribute = "value" -->
+       <h1>Lets work on Forms</h1>
+       <br>
+    <div>
+        <label for="">What is your name outside of a form:
+            <input type="number">
+        </label>
+    </div>
+<br>
+    <form action="">
+        <div>
+            <label for="MyNumber">What is your name:</label>
+            <input type="number" name="MyNumber" id="MyNumber">
+        </div>
+        <br>
+        <div>
+        <label for="">What is your age:</label>
+        <input type="number" name="MyAge" id="MyAge">
+    </div>
+    <br>
+    <div>
+        <button type="submit">submit</button>
+    </div>
+    </form>
+<br>
+    <button type="button">my outside form button</button>
+
+    <h1>Lets work on tables</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>heading 1 </th>
+                <th>heading 2</th>
+                <th>heading 3</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>data1</td>
+                <td>data2</td>
+                <td>data3</td>
+            </tr>
+            <tr>
+                <td>data1</td>
+                <td>data2</td>
+                <td>data3</td>
+            </tr>
+            <tr>
+                <td>data1</td>
+                <td>data2</td>
+                <td>data3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Summary 1</td>
+                <td>Summary 2</td>
+                <td>Summary 3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h3>Weekly Summary Food Spending</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>7</td>
+                <td>5</td>
+                <td>12</td>
+                <td>6</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>12</td>
+                <td>13</td>
+                <td>18</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>8</td>
+                <td>16</td>
+                <td>40</td>
+                <td>28</td>
+            </tr>
+           
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
